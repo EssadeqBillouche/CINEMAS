@@ -140,9 +140,18 @@ margin-top: 460px;
     flex-wrap: nowrap;
     align-content: center;
 }
+.menu_movie_section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around
+}
 .movie_bar ul{
     align-content: center;
 }
 .explore_movie_pics{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
 }
+
