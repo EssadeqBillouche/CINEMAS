@@ -354,5 +354,12 @@ h4 a {
     font-size: 25px;
     font-weight: bold;
   }
+.trending{
 
+    background-image: url("images/PANDA.jpg");
+    background-repeat: no-repeat;
+    width: 99%;
+    height: 681px;
+    background-position: unset;
 
+}
