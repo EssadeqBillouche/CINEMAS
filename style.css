@@ -1,44 +1,51 @@
-
-body{
+body {
     font-family: "Comfortaa", sans-serif;
     font-size: 20px;
     margin: 0;
     background-color: #F5F5F5;
     padding: 0;
 }
-.container_nav_bar{
+
+.container_nav_bar {
     top: 80px;
     font-size: 20px;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
-    
+
 }
-ul{
+
+ul {
     list-style-type: none;
     text-decoration: none;
     margin-top: 40px;
 }
-li{
+
+li {
     display: inline;
     color: rgb(5, 1, 1);
     margin-left: 5%;
     text-decoration: none;
 }
-li a{
+
+li a {
     color: #000000;
 }
-h4 a{
+
+h4 a {
     color: #e71ad9;
 }
-#logo{
+
+#logo {
     border-right: 20px;
     margin-right: 20px;
     font-size: 21px;
     font-weight: bold;
 }
-#search{
+
+#search {
     margin-left: 100px;
     background-color: #FFCCFD;
     color: white;
@@ -48,75 +55,85 @@ h4 a{
     border-style: none;
 
 }
-.welcome_section{
+
+.welcome_section {
     background: linear-gradient(#CA26FF, #F4CAC0);
     width: 100%;
     height: 750px;
     border-radius: 20px 20px 200px 20px;
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
-#paragraph{
+
+#paragraph {
     max-width: 800px;
     margin-top: 100px;
     margin-left: 100px;
     color: azure;
-    
-   
+
+
 }
 
 .lift_part {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
-#git_ticket_botton{
-background-color: #000000;
-color: #FFCCFD;
-padding-left: 20px;
-padding-right: 20px;
-height: 20px;
-width: 100px;
-border: 20px solid #000000;
-border-radius: 40px;
-margin-top: 460px;
+#git_ticket_botton {
+    background-color: #000000;
+    color: #FFCCFD;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 20px;
+    width: 100px;
+    border: 20px solid #000000;
+    border-radius: 40px;
+    margin-top: 460px;
 }
-.right_part{
+
+.right_part {
     top: 40%;
 }
-.movie_container{
+
+.movie_container {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    
+
 }
-.image_name_container{
+
+.image_name_container {
     flex-direction: row;
 }
-.right_part img{
+
+.right_part img {
     margin-top: 200px;
 }
-.lift_part h1{
+
+.lift_part h1 {
     margin-top: 100px;
     margin-left: 100px;
     font-size: 80px;
     margin-bottom: 10px;
 }
-.lift_part h2{
+
+.lift_part h2 {
     font-size: 50px;
     margin-top: 10px;
     margin-left: 100px;
 }
-.lift_part p{
-    
+
+.lift_part p {
+
     position: relative;
     left: 130px;
     color: white;
 }
-.lift_part a{
-    
+
+.lift_part a {
+
     position: relative;
     color: white;
     left: 1000px;
@@ -125,25 +142,28 @@ margin-top: 460px;
     width: 200px;
     padding: 20px;
     border: 30px;
-    border-radius: 35px; 
+    border-radius: 35px;
 }
-.movie{
+
+.movie {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.movie_container2{
+
+.movie_container2 {
     display: flex;
     flex-direction: column;
 }
 
-.movie_bar{
+.movie_bar {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
 }
-.menu_movie_section{
+
+.menu_movie_section {
     margin-right: 79px;
     margin-bottom: 20px;
     display: flex;
@@ -151,91 +171,108 @@ margin-top: 460px;
     flex-wrap: wrap;
     align-content: space-around
 }
-.movie_bar ul{
+
+.movie_bar ul {
     align-content: center;
 }
-.explore_movie_pics{
+
+.explore_movie_pics {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1120px;
 }
-.container_baner_SERVICES{
+
+.container_baner_SERVICES {
     display: flex;
 }
 
-.services_bar{
+.services_bar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.service1{
+
+.service1 {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     border-radius: 20px;
 }
-.top_banner{
+
+.top_banner {
     height: 57px;
     width: 384px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     background-color: #330031;
 }
-.center_banner{
+
+.center_banner {
     height: 572px;
     width: 384px;
     background-color: #FFFFFF;
 }
-.bottom_banner{
+
+.bottom_banner {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     height: 57px;
     width: 384px;
     background-color: #330031;
 }
-#explor_text h3{
+
+#explor_text h3 {
     font-size: 64px;
 }
-#explor_text{
+
+#explor_text {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
     border-bottom: 0px;
 }
-.footer_contaier{
+
+.footer_contaier {
     margin-top: 100px;
     display: grid;
     background-color: #330031;
     width: 100%;
     height: 500px;
-    grid-template-columns:30% 30% 30%;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: 30% 30% 30%;
     justify-content: center;
 }
-.f{
+
+.f {
 
     /* width: 200px; */
     background-color: rgb(12, 135, 242);
     grid-column: 1/4;
     grid-row: 1/2;
 }
-.footer_top_1{
+
+.footer_top_1 {
     grid-area: 1 / 1/ 2/ 2;
 }
-.footer_top_2{
+
+.footer_top_2 {
     grid-area: 1 / 2/ 2/ 3;
 }
-.footer_top_3{
+
+.footer_top_3 {
     grid-area: 1 / 3/ 2/ 4;
 }
-.footer_center_1{
+
+.footer_center_1 {
     grid-area: 2 / 1/ 3/ 2;
 }
-.footer_center_2{
-border-left: 4px solid white;
-border-right: 4px solid white;
+
+.footer_center_2 {
+    border-left: 4px solid white;
+    border-right: 4px solid white;
 }
-.SERVICES_text{
+
+.SERVICES_text {
     margin-top: 32px;
     font-size: 40px;
     font-weight: bolder;
@@ -243,7 +280,40 @@ border-right: 4px solid white;
     margin-left: 51px;
 }
 
+.pricing_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.pricing_banner {
+    height: 558px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
 
+.top_pricing_banner {
+    background-color: #FFCCFD;
+    width: 300px;
+    height: 100px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid black;
+}
 
+.center_pricing_banner {
+    width: 300px;
+    height: 478px;
+    border: 1px solid black;
+    background-color: #f0eaf0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
+.full_price_section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
