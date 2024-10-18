@@ -319,5 +319,9 @@ h4 a {
 }
 .container_image_form{
     display: flex;
-    
+
+}
+.form_contact_us{ 
+    display: flex;
+    flex-direction: row;
 }
