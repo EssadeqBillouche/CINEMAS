@@ -328,3 +328,27 @@ h4 a {
     display: flex;
     flex-direction: column;
 }
+.container_contact_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub_nav_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub_nav_bar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 0px;
+  }
+.sub_nav_bar ul li{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+
