@@ -2,6 +2,9 @@
 body{
     font-family: "Comfortaa", sans-serif;
     font-size: 20px;
+    margin: 0;
+    background-color: #F5F5F5;
+    padding: 0;
 }
 .container_nav_bar{
     top: 80px;
@@ -141,6 +144,8 @@ margin-top: 460px;
     align-content: center;
 }
 .menu_movie_section{
+    margin-right: 79px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -152,6 +157,7 @@ margin-top: 460px;
 .explore_movie_pics{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     max-width: 1120px;
 }
 .container_baner_SERVICES{
@@ -161,26 +167,83 @@ margin-top: 460px;
 .services_bar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .service1{
     display: flex;
     flex-direction:column;
+    border-radius: 20px;
 }
 .top_banner{
-    height: 40px;
-    width: 300px;
-    background-color: #d30bcc;
+    height: 57px;
+    width: 384px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #330031;
 }
 .center_banner{
-    height: 400px;
-    width: 300px;
-    background-color: #c6a9c5;
+    height: 572px;
+    width: 384px;
+    background-color: #FFFFFF;
 }
 .bottom_banner{
-    height: 40px;
-    width: 300px;
-    background-color: #5d095a;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 57px;
+    width: 384px;
+    background-color: #330031;
 }
+#explor_text h3{
+    font-size: 64px;
+}
+#explor_text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+.footer_contaier{
+    margin-top: 100px;
+    display: grid;
+    background-color: #330031;
+    width: 100%;
+    height: 500px;
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    justify-content: center;
+}
+.f{
+
+    /* width: 200px; */
+    background-color: rgb(12, 135, 242);
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.footer_top_1{
+    grid-area: 1 / 1/ 2/ 2;
+}
+.footer_top_2{
+    grid-area: 1 / 2/ 2/ 3;
+}
+.footer_top_3{
+    grid-area: 1 / 3/ 2/ 4;
+}
+.footer_center_1{
+    grid-area: 2 / 1/ 3/ 2;
+}
+.footer_center_2{
+border-left: 4px solid white;
+border-right: 4px solid white;
+}
+.SERVICES_text{
+    margin-top: 32px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 45px;
+    margin-left: 51px;
+}
+
+
+
 
 
