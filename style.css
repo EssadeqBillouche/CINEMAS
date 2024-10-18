@@ -317,3 +317,7 @@ h4 a {
     justify-content: center;
     flex-wrap: wrap;
 }
+.container_image_form{
+    display: flex;
+    
+}
