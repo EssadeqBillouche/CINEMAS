@@ -319,9 +319,12 @@ h4 a {
 }
 .container_image_form{
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 
 }
 .form_contact_us{ 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
