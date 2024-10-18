@@ -363,3 +363,18 @@ h4 a {
     background-position: unset;
 
 }
+.action_movie_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.movie_action_name_pic_container{
+  
+    display: flex;
+    margin: 37px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
