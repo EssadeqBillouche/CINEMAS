@@ -154,4 +154,33 @@ margin-top: 460px;
     flex-wrap: wrap;
     max-width: 1120px;
 }
+.container_baner_SERVICES{
+    display: flex;
+}
+
+.services_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.service1{
+    display: flex;
+    flex-direction:column;
+}
+.top_banner{
+    height: 40px;
+    width: 300px;
+    background-color: #d30bcc;
+}
+.center_banner{
+    height: 400px;
+    width: 300px;
+    background-color: #c6a9c5;
+}
+.bottom_banner{
+    height: 40px;
+    width: 300px;
+    background-color: #5d095a;
+}
+
 
