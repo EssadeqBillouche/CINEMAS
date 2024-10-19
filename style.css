@@ -11,7 +11,9 @@ body {
     font-size: 20px;
 
 }
-
+.trending h1 {
+    margin: 0px;
+}
 a {
     text-decoration: none;
 
@@ -19,8 +21,9 @@ a {
 
 ul {
     list-style-type: none;
-    text-decoration: none;
-    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 li {
@@ -39,17 +42,18 @@ h4 a {
 }
 
 #logo {
-    border-right: 20px;
-    margin-right: 20px;
-    font-size: 21px;
+    margin-left: unset;
+    /* border-right: 69px; */
+    margin-right: 77px;
+    font-size: 34px;
     font-weight: bold;
 }
 
 #search {
-    margin-left: 100px;
+    margin-left: 30px;
     background-color: #FFCCFD;
     color: white;
-    width: 444px;
+    width: 300px;
     HEIGHT: 47px;
     border-radius: 30px;
     border-style: none;
@@ -339,6 +343,7 @@ h4 a {
 }
 .sub_nav_bar{
     display: flex;
+    margin: -16px;
     flex-direction: column;
     justify-content: space-between;
 }
